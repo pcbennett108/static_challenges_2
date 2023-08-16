@@ -1,0 +1,97 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+header h1 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-left: 25px;
+}
+
+header div a {
+  background: #588c09;
+  padding: 22px 30px;
+}
+
+header div {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #1D1D1D;
+  border-bottom: 2px solid white;
+}
+
+nav {
+  background: #062e63;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px 100px;
+  border-bottom: 1px solid white;
+}
+
+#splash {
+  background-image: url('../images/1.jpg');
+  width: 100%;
+  height: 400px; 
+  background-size: cover;
+  background-position: center;
+}
+
+
+#splash h2 {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 25px;
+
+}
+
+#intro_text {
+  background: #1D1D1D;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+#intro_text p {
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+#landmarks {
+  color: black;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.landmark img {
+  height: 170px;
+  width: 340px;
+  object-fit: cover;
+}
+
+footer {
+  background: #1D1D1D;
+}
+
+footer p {
+  font-weight: 300;
+  font-size: 14px;
+  padding: 25px;
+}
